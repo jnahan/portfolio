@@ -1,11 +1,11 @@
-import img from '../images/rect.png'
-import checkmate from '../images/card/checkmate.png'
-import cibi from '../images/card/cibi.png'
-import bondit from '../images/card/bondit.png'
-import esp from '../images/card/esp.png'
-import drawTog from '../images/card/draw-together.png'
-import dailyUI from '../images/card/daily-ui.png'
-import about from '../images/card/about.png'
+import img from "../images/rect.png"
+import checkmate from "../images/card/checkmate.png"
+import cibi from "../images/card/cibi.png"
+import bondit from "../images/card/bondit.png"
+import esp from "../images/card/esp.png"
+import drawTog from "../images/card/draw-together.png"
+import dailyUI from "../images/card/daily-ui.png"
+import about from "../images/card/about.png"
 
 export const projects = [
     {

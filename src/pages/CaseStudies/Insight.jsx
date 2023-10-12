@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react"
 
 function Insight({title, text}) {
   return (
-    <div className='insight'>
+    <div className="insight">
         <h4>{title}</h4>
         <p>{text}</p>
     </div>
