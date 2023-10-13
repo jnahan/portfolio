@@ -2,6 +2,8 @@ import React from "react"
 import { projects } from "../../data/projectData"
 import ProjectInfo from "./ProjectTitle"
 import Insight from "./Insight"
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import MoreProjects from "./MoreProjects";
 
 import cover from "../../images/bondit/bondit-cover-image.png"
 import ca from "../../images/bondit/competitive-analysis-matrix.png"
@@ -83,7 +85,7 @@ function Bondit() {
           <h5 className="section__heading">Competitive Analysis</h5>
           <h3 className="section__title">We analyzed ten social media apps targeting college students to understand the role of Bondit within the greater app market</h3>
           <div className="img-wrapper section__img">
-            <img className="img" src={ca} alt="competitive analysis" />
+            <LazyLoadImage className="img" src={ca} alt="competitive analysis" />
           </div>
         </section>
         <section className="section">
@@ -100,10 +102,10 @@ function Bondit() {
             <li>Finding ways Bondit can target latent target users</li>
           </ul>
           <div className="img-wrapper section__img">
-            <img className="img" src={ad1} alt="affinity diagram" />
+            <LazyLoadImage className="img" src={ad1} alt="affinity diagram" />
           </div>
           <div className="img-wrapper section__img">
-            <img className="img" src={q1} alt="relevant quotes" />
+            <LazyLoadImage className="img" src={q1} alt="relevant quotes" />
           </div>
         </section>
         <section className="section">
@@ -142,30 +144,30 @@ function Bondit() {
             Jennifer and Raj have different goals for using Bondit. While Jennifer wants to use Bondit to socialize and make new friends, Raj wants to use Bondit to seek academic opportunities. These users have been inspired by students at NYU and UC Berkeley, colleges most team members were from.
           </p>
           <div className="img-wrapper section__img">
-            <img className="img" src={persona1} alt="user persona (Jennifer)" />
+            <LazyLoadImage className="img" src={persona1} alt="user persona (Jennifer)" />
           </div>
           <div className="img-wrapper section__img">
-            <img className="img" src={persona2} alt="user persona (Raj)" />
+            <LazyLoadImage className="img" src={persona2} alt="user persona (Raj)" />
           </div>
         </section>
         <section className="section">
           <h5 className="section__heading">User Journey</h5>
           <h3 className="section__title">How would Jennifer and Raj use Bondit?</h3>
           <p className="section__text">
-            We created user journeys based on Jennifer and Raj to showcase how Bondit may be used to achieve different goals. While Jennifer uses Bondit to socialize, Raj uses Bondit for academic opportunities. Jennifer"s key features were map and chat while Raj"s key features were course scheduling, chat, and professor ratings.        
+            We created user journeys based on Jennifer and Raj to showcase how Bondit may be used to achieve different goals. While Jennifer uses Bondit to socialize, Raj uses Bondit for academic opportunities. Jennifer'skey features were map and chat while Raj'skey features were course scheduling, chat, and professor ratings.        
           </p>
           <div className="img-wrapper section__img">
-            <img className="img" src={journey1} alt="user journey (Jennifer)" />
+            <LazyLoadImage className="img" src={journey1} alt="user journey (Jennifer)" />
           </div>
           <div className="img-wrapper section__img">
-            <img className="img" src={journey2} alt="user journey (Raj)" />
+            <LazyLoadImage className="img" src={journey2} alt="user journey (Raj)" />
           </div>
         </section>
         <section className="section">
           <h5 className="section__heading">Information Architecture</h5>
           <h3 className="section__title">Information architecture for key features</h3>
           <p className="section__text">
-            Finally, to determine potential areas of focus and optimize the flow of the app, we created an information architecture based on Bondit"s key features: 
+            Finally, to determine potential areas of focus and optimize the flow of the app, we created an information architecture based on Bondit'skey features: 
           </p>
           <ul>
             <li>course schedule</li>
@@ -175,10 +177,10 @@ function Bondit() {
             <li>professor rating</li>
           </ul>
           <p>
-            Through this, we were able to find a minor bug where friend"s profiles did not appear in the profile tab when filtered by peer, which could have led to frustration and reduced engagement. 
+            Through this, we were able to find a minor bug where friend'sprofiles did not appear in the profile tab when filtered by peer, which could have led to frustration and reduced engagement. 
           </p>
           <div className="img-wrapper section__img">
-            <img className="img" src={ia} alt="information architecture" />
+            <LazyLoadImage className="img" src={ia} alt="information architecture" />
           </div>
         </section>
         <section className="section">
@@ -188,10 +190,10 @@ function Bondit() {
             We conducted 7 more interviews to understand Gen Z trends of bonding with peers with a focus on social media. We again performed open coding and created an affinity diagram to identify key takeaways. 
           </p>
           <div className="img-wrapper section__img">
-            <img className="img" src={ad2} alt="affinity diagram" />
+            <LazyLoadImage className="img" src={ad2} alt="affinity diagram" />
           </div>
           <div className="img-wrapper section__img">
-            <img className="img" src={q2} alt="relevant quotes" />
+            <LazyLoadImage className="img" src={q2} alt="relevant quotes" />
           </div>
         </section>
         <section className="section">
@@ -232,10 +234,10 @@ function Bondit() {
           </ul>
           <p>We examined this by interviewing 10 students.</p>
           <div className="img-wrapper section__img">
-            <img className="img" src={ad3} alt="affinity diagram" />
+            <LazyLoadImage className="img" src={ad3} alt="affinity diagram" />
           </div>
           <div className="img-wrapper section__img">
-            <img className="img" src={q3} alt="relevant quotes" />
+            <LazyLoadImage className="img" src={q3} alt="relevant quotes" />
           </div>
         </section>
         <section className="section">
@@ -271,10 +273,10 @@ function Bondit() {
           </ul>
           <p>We conducted cognitive walkthroughs on 15 participants.</p>
           <div className="img-wrapper section__img">
-            <img className="img" src={ad4} alt="affinity diagram" />
+            <LazyLoadImage className="img" src={ad4} alt="affinity diagram" />
           </div>
           <div className="img-wrapper section__img">
-            <img className="img" src={q4} alt="relevant quotes" />
+            <LazyLoadImage className="img" src={q4} alt="relevant quotes" />
           </div>
         </section>
         <section className="section">
@@ -309,7 +311,7 @@ function Bondit() {
               We improved the login flow by making the profile photo optional and adding username to help students find their friends more easily. We also made college verification optional in the login stage; students can access limited features without verification and upload verification later on to unlock all features.  
             </p>
             <div className="img-wrapper section__img">
-              <img className="img" src={login} alt="new login" />
+              <LazyLoadImage className="img" src={login} alt="new login" />
             </div>
           </div>
           <div className="section__img">
@@ -318,7 +320,7 @@ function Bondit() {
               Community board has been added to enable users to find fun events and join discussions with other students. This board can facilitate interactions between students and allow them to share information and connect, which could help them bond and feel more engaged with their college community.
             </p>
             <div className="img-wrapper section__img">
-              <img className="img" src={board} alt="new community board" />
+              <LazyLoadImage className="img" src={board} alt="new community board" />
             </div>
           </div>
         </section>
@@ -326,7 +328,7 @@ function Bondit() {
           <h5 className="section__heading">Reflection</h5>
           <h3 className="section__title">Outcome</h3>
           <p className="section__text">
-            We successfully conducted four rounds of user research and began designing improved features. Our work will be transferred to Bondit"s summer team, who will make further modifications and implement the designs before the start of the fall 2022 semester.
+            We successfully conducted four rounds of user research and began designing improved features. Our work will be transferred to Bondit'ssummer team, who will make further modifications and implement the designs before the start of the fall 2022 semester.
           </p>
         </section>
         <section className="section">
@@ -344,8 +346,14 @@ function Bondit() {
               Our team regularly held discussions to explore solutions based on user insights, and our ideas sometimes differed. However, these conversations taught me that exchanging perspectives can lead to stronger and more creative ideas. <br /> <br />
 
               <strong>First-hand experience can guide the research </strong> <br />
-              As a college freshman, I fit the app"s target audience perfectly. The PM and founder often asked for my thoughts on the user experience, and I noticed that many users" paint points aligned with mine. This connection helped me empathize with the users during interviews.
+              As a college freshman, I fit the app'starget audience perfectly. The PM and founder often asked for my thoughts on the user experience, and I noticed that many users" paint points aligned with mine. This connection helped me empathize with the users during interviews.
           </p>
+        </section>
+        <section className="section">
+          <MoreProjects
+            title={projects[2].title}
+            link={projects[2].link}
+          />
         </section>
       </div>
     </div>

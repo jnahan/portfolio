@@ -32,7 +32,7 @@ a{
   --h6: 1.25rem;
   --body-x-large: 1.5rem;
   --body-large: 1.25rem;
-  --body: 1.125rem;
+  --body: 1.15rem;
 
   /* Effect styles */
   --shadow:  0px 5.999998092651367px 17.9999942779541px rgba(0, 0, 0, 0.08);
@@ -199,6 +199,13 @@ strong{
 }
 .card{
   flex-basis: 100%;
+  transition: all .2s ease-in-out; 
+}
+.card:hover {
+  transform: scale(1.02);
+}
+.card__img:hover{
+  box-shadow: var(--shadow);
 }
 .card--large{
   flex-basis: 66%;
@@ -390,6 +397,19 @@ strong{
   padding: 24px 32px;
   border-radius: 8px;
   flex-basis: 100%;
+}
+.more-projects{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.more-projects__button{
+  display: flex;
+  align-items: center;
+}
+.arrow{
+  width: 32px;
+  height: 32px;
 }
 .img--dt{
   height: 100px;

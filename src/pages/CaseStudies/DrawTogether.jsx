@@ -1,6 +1,8 @@
 import React from "react"
 import { projects } from "../../data/projectData"
 import ProjectInfo from "./ProjectTitle"
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import MoreProjects from "./MoreProjects";
 
 import cover from "../../images/draw-together/draw-together-cover-image.png"
 import ca1 from "../../images/draw-together/skribbl.io.png"
@@ -88,17 +90,17 @@ function DrawTogether() {
           <p className="section__text">I analyzed popular drawing games and their pros and cons for inspiration.</p>
           <div className="col section__img">
             <div className="col col--dt">
-              <img className="img img--dt" src={ca1} alt="Skribbl.io" />
+              <LazyLoadImage className="img img--dt" src={ca1} alt="Skribbl.io" />
               <h6>Skribbl.io</h6>
               <p>Online draw and guess game</p>
             </div>
             <div className="col col--dt">
-              <img className="img img--dt" src={ca2} alt="painting swap challenge" />
+              <LazyLoadImage className="img img--dt" src={ca2} alt="painting swap challenge" />
               <h6>Painting Swap Challenge</h6>
               <p>Paint and swap with partner</p>
             </div>
             <div className="col col--dt">
-              <img className="img img--dt" src={ca3} alt="Aggie.io" />
+              <LazyLoadImage className="img img--dt" src={ca3} alt="Aggie.io" />
               <h6>Aggie.io by Magma</h6>
               <p>Collaborative Drawing</p>
             </div>
@@ -132,7 +134,7 @@ function DrawTogether() {
           <h5 className="section__name">User Flow</h5>
           <h3 className="section__title">Defining host and player flows</h3>
           <div className="img-wrapper section__img">
-              <img className="img" src={flow} alt="user flow diagram" />
+              <LazyLoadImage className="img" src={flow} alt="user flow diagram" />
           </div>
         </section>
         <section className="section">
@@ -145,12 +147,12 @@ function DrawTogether() {
             </p>
           <div className="col">
             <div className="img-wrapper">
-                <img className="img" src={low1} alt="low-fidelity home" />
-                <img className="img" src={low2} alt="low-fidelity settings" />
+                <LazyLoadImage className="img" src={low1} alt="low-fidelity home" />
+                <LazyLoadImage className="img" src={low2} alt="low-fidelity settings" />
             </div>
             <div className="img-wrapper">
-              <img className="img" src={low3} alt="low-fidelity game mode" />
-                <img className="img" src={low4} alt="low-fidelity canvas" />
+              <LazyLoadImage className="img" src={low3} alt="low-fidelity game mode" />
+                <LazyLoadImage className="img" src={low4} alt="low-fidelity canvas" />
             </div>
           </div>
         </section>
@@ -161,7 +163,7 @@ function DrawTogether() {
             As this is a drawing game, we wanted to make the UI playful and fun. To achieve this, we used a handwritten font for headings and a more readable monoscript font for smaller texts. We also used hand-drawn illustrations throughout the website with a pastel color palette.    
           </p>
           <div className="img-wrapper section__img">
-              <img className="img" src={style} alt="style guide" />
+              <LazyLoadImage className="img" src={style} alt="style guide" />
           </div>
         </section>
         <section className="section">
@@ -172,12 +174,12 @@ function DrawTogether() {
           </p>
           <div className="col">
           <div className="img-wrapper">
-              <img className="img" src={high1} alt="home mockup" />
-              <img className="img" src={high2} alt="settings mockup" />
+              <LazyLoadImage className="img" src={high1} alt="home mockup" />
+              <LazyLoadImage className="img" src={high2} alt="settings mockup" />
           </div>
             <div className="img-wrapper">
-              <img className="img" src={high3} alt="game mode mockup" />
-              <img className="img" src={high4} alt="canvas mockup" />
+              <LazyLoadImage className="img" src={high3} alt="game mode mockup" />
+              <LazyLoadImage className="img" src={high4} alt="canvas mockup" />
             </div>
           </div>
         </section>
@@ -198,14 +200,14 @@ function DrawTogether() {
           </p>
           <div className="col section__img">
             <div className="img-wrapper">
-              <img className="img" src={ut1} alt="user testing" />
+              <LazyLoadImage className="img" src={ut1} alt="user testing" />
             </div>
             <div className="img-wrapper">  
-              <img className="img" src={ut2} alt="user testing" />
+              <LazyLoadImage className="img" src={ut2} alt="user testing" />
             </div>
             </div>
           <div className="img-wrapper section__img">
-            <img className="img" src={utDrawings} alt="user testing drawings" />
+            <LazyLoadImage className="img" src={utDrawings} alt="user testing drawings" />
           </div>
         </section>
         <section className="section">
@@ -216,10 +218,10 @@ function DrawTogether() {
             </p>
             <div className="col section__img">
               <div className="img-wrapper">
-                <img className="img" src={old1} alt="old tutorial" />
+                <LazyLoadImage className="img" src={old1} alt="old tutorial" />
               </div>
               <div className="img-wrapper">  
-                <img className="img" src={new1} alt="new tutorial" />
+                <LazyLoadImage className="img" src={new1} alt="new tutorial" />
               </div>
             </div>
           </div>
@@ -230,13 +232,13 @@ function DrawTogether() {
             <p>We also added new canvas tools and features based on user feedback:</p>
             <div className="col section__img">
               <div className="img-wrapper">
-                <img className="img" src={old2} alt="old canvas" />
+                <LazyLoadImage className="img" src={old2} alt="old canvas" />
               </div>
               <div className="img-wrapper">  
-                <img className="img" src={new2} alt="new canvas" />
+                <LazyLoadImage className="img" src={new2} alt="new canvas" />
               </div>
               <div className="section__img">
-                <img className="img" src={features} alt="new features" />
+                <LazyLoadImage className="img" src={features} alt="new features" />
               </div>
             </div>
           </div>
@@ -246,7 +248,7 @@ function DrawTogether() {
             <h4 className = "section__title--small">3. Better Swapping Transition</h4>
             <p>Users have noted that the swapping felt “glitchy” because it happened too quickly. To resolve this, we added a swapping transition and made the countdown timer blink when there are less than five seconds left.</p>
             <div className="img-wrapper section__img">
-              <img className="img" src={new3} alt="new transition" />
+              <LazyLoadImage className="img" src={new3} alt="new transition" />
             </div>
           </div>
         </section>
@@ -272,6 +274,12 @@ function DrawTogether() {
             
             Before I focused on design, I felt conflicted because I enjoyed both design and development. However, this project made me realize that having knowledge in both areas is hugely beneficial. I can create self-directed projects and this knowledge helps me bridge the gap between design and development. I had a better understanding of what steps were needed to build the project, and I could even provide some code instructions along with my design document to help the team work more quickly and efficiently.
           </p>
+        </section>
+        <section className="section">
+          <MoreProjects
+            title={projects[5].title}
+            link={projects[5].link}
+          />
         </section>
       </div>
     </div>

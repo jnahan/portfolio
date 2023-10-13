@@ -1,6 +1,7 @@
 import React from "react"
 import { projects } from "../../data/projectData"
 import ProjectInfo from "./ProjectTitle"
+import MoreProjects from "./MoreProjects"
 
 import cover from "../../images/cibi/cibi-cover-image.png"
 
@@ -46,7 +47,7 @@ function Cibi() {
 
             My 3 month long project involved researching, designing, and prototyping Cibi’s MVP. This process involved tons of ideation and discussions with the project manager, and went through many different iterations. The demo version of the app will be shipped December of 2023. <br /> <br />
 
-            Although I am unable to disclose specific details about my work, please feel free to <a className="content-link" target="_blank" href="mailto: jenna5376@gmail.com">reach out</a> to me for more details!
+            Although I am unable to disclose specific details about my work, please feel free to <a className="content-link" target="_blank" href="mailto: jh7765@nyu.edu">reach out</a> to me for more details!
           </p>
         </section>
         <section className="section">
@@ -63,6 +64,12 @@ function Cibi() {
             <strong>Iteration is key</strong>  <br /> 
             I sometimes get scared when designing because I feel like my design has to be perfect and finalized in the first go. However, working at Cibi helped me realize that good design comes from a constant loop of feedback and improvements. I was surprised to see how the vision and design for Cibi developed over the months! <br /> <br />
           </p>
+        </section>
+        <section className="section">
+          <MoreProjects
+            title={projects[3].title}
+            link={projects[3].link}
+          />
         </section>
       </div>
     </div>

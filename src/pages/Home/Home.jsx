@@ -5,11 +5,10 @@ import Cat from "./Cat"
 
 /*
 TODO
-- css touuchups
 - mobile responsivity
+- css fun effects
 - update resume
 - make images clickable
-- lazy load
 */
 
 function Home() {

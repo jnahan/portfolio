@@ -1,6 +1,8 @@
 import React from "react"
 import { projects } from "../../data/projectData"
 import ProjectInfo from "./ProjectTitle"
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import MoreProjects from "./MoreProjects";
 
 import cover from "../../images/checkmate/checkmate-cover-image.png"
 import final1 from "../../images/checkmate/final-design-1.png"
@@ -80,7 +82,7 @@ function Checkmate() {
         <section className="section">
         <div className="col col--gap">
             <div className="img-wrapper col-large">
-              <img className="img" src={final1} alt="challenge" />
+              <LazyLoadImage className="img" src={final1} alt="challenge" />
             </div>
             <div className="col-small">
               <h4 className="section__title--small">Set goals and get held accountable</h4>
@@ -103,14 +105,14 @@ function Checkmate() {
               </ul>
             </div>
             <div className="img-wrapper col-large">
-              <img className="img" src={final2} alt="prizes" />
+              <LazyLoadImage className="img" src={final2} alt="prizes" />
             </div>
           </div>
         </section>
         <section className="section">
           <div className="col col--gap">
             <div className="img-wrapper col-large">
-              <img className="img" src={final3} alt="community" />
+              <LazyLoadImage className="img" src={final3} alt="community" />
             </div>
             <div className="col-small">
               <h4 className="section__title--small">Join the community and spread support</h4>
@@ -126,7 +128,7 @@ function Checkmate() {
           <h5 className="section__heading">DESIGN PROCESS</h5>
           <h3 className="section__title">I used the design thinking process to make sure my design decisions align with user needs</h3>
           <div className="img-wrapper section__img">
-            <img className="img" src={process} alt="design thinking process" />
+            <LazyLoadImage className="img" src={process} alt="design thinking process" />
           </div>
         </section>
         <section className="section">
@@ -145,7 +147,7 @@ function Checkmate() {
             I analyzed three of the most popular productivity apps on App Store--Habit tracker, Productive, and Done--and found that none of these apps held their users accountable for not completing their goals. The lack of accountability could be bad for long-term goals as it can lead to users lacking motivation and procrastinating, and therefore failing to ever reach their goals.
           </p>
           <div className="img-wrapper section__img">
-            <img className="img" src={ca} alt="competitive analysis" />
+            <LazyLoadImage className="img" src={ca} alt="competitive analysis" />
           </div>
         </section>
         <section className="section">
@@ -156,10 +158,10 @@ function Checkmate() {
           </p>
           <div className="col img-wrapper section__img">
             <div>
-                <img className="img" src={qr1} alt="quantiative research" />
+                <LazyLoadImage className="img" src={qr1} alt="quantiative research" />
             </div>
             <div>
-                <img className="img" src={qr2} alt="quantiative research" />
+                <LazyLoadImage className="img" src={qr2} alt="quantiative research" />
             </div>
           </div>
         </section>
@@ -178,28 +180,28 @@ function Checkmate() {
           <h5 className="section__heading">Insight 1</h5>
           <h3 className="section__title">Most people prefer to keep their goals private from their peers and are unable to benefit from accountability partners</h3>
           <div className="img-wrapper section__img">
-              <img className="img" src={ri1} alt="insight 1 quotes" />
+              <LazyLoadImage className="img" src={ri1} alt="insight 1 quotes" />
           </div>
         </section>
         <section className="section">
           <h5 className="section__heading">Insight 2</h5>
           <h3 className="section__title">People are more likely to accomplish their goals if there is are enforced structures and consequences</h3>
           <div className="img-wrapper section__img">
-              <img className="img" src={ri2} alt="insight 2 quotes" />
+              <LazyLoadImage className="img" src={ri2} alt="insight 2 quotes" />
           </div>
         </section>
         <section className="section">
           <h5 className="section__heading">User Persona</h5>
           <h3 className="section__title">Based on user research, I designed Sophia, the average motivated but overwhelmed college student</h3>
           <div className="img-wrapper section__img">
-              <img className="img" src={persona} alt="user persona" />
+              <LazyLoadImage className="img" src={persona} alt="user persona" />
           </div>
         </section>
         <section className="section">
           <h5 className="section__heading">User Journey</h5>
           <h3 className="section__title">Although Sophia tries her best to work on her goals, she often loses motivation and gives up halfway</h3>
           <div className="img-wrapper section__img">
-            <img className="img" src={journey} alt="user journey" />
+            <LazyLoadImage className="img" src={journey} alt="user journey" />
           </div>
         </section>
         <section className="section">
@@ -223,7 +225,7 @@ function Checkmate() {
             I broke down the system into three stages: joining a challenge, uploading proof of completion, and earning rewards
           </h3>
           <div className="img-wrapper section__img">
-            <img className="img" src={flow} alt="user flow diagram" />
+            <LazyLoadImage className="img" src={flow} alt="user flow diagram" />
           </div>
         </section>
         <section className="section">
@@ -235,7 +237,7 @@ function Checkmate() {
             This test was conducted using a Figma prototype. I designed wireframes with minimal styling to help students focus on the concept and flow of the app.        
           </p>
           <div className="img-wrapper section__img">
-            <img className="img" src={utSteps} alt="user testing steps" />
+            <LazyLoadImage className="img" src={utSteps} alt="user testing steps" />
           </div>
         </section>
         <section className="section">
@@ -258,14 +260,14 @@ function Checkmate() {
               </ul>
             </div>
             <div className="img-wrapper">
-              <img className="img" src={ut1} alt="onboarding survey" />
+              <LazyLoadImage className="img" src={ut1} alt="onboarding survey" />
             </div>
           </div>
         </section>
         <section className="section">
           <div className="col col--gap">
             <div className="img-wrapper col-large">
-              <img className="img" src={ut2} alt="rules and prizes" />
+              <LazyLoadImage className="img" src={ut2} alt="rules and prizes" />
             </div>
             <div className="col-small">
               <h4 className="section__title--small">Clarified Rules and Prize System</h4>
@@ -288,14 +290,14 @@ function Checkmate() {
               </ul>
             </div>
             <div className="img-wrapper col-large">
-              <img className="img" src={ut3} alt="cover up stickers" />
+              <LazyLoadImage className="img" src={ut3} alt="cover up stickers" />
             </div>
           </div>   
         </section>
         <section className="section">
           <div className="col col--gap">
             <div className="img-wrapper col-large">
-              <img className="img" src={ut4} alt="challenge groups" />
+              <LazyLoadImage className="img" src={ut4} alt="challenge groups" />
             </div>
             <div className="col-small">
               <h4 className="section__title--small">Small Challenge Groups</h4>
@@ -327,19 +329,19 @@ function Checkmate() {
             I really loved working on Checkmate as self-improvement is something I’ve always been interested in. I presented the idea to some of my classmates and friends and heard amazing feedback. A lot of people said having money as a source of motivation was a great idea, and that they would definitely use the app if it actually existed (I would also love to use the app, and am actually considering coding it). <br /><br />
             
             Through this project I learned some important takeaways: <br /><br />
-          </p>
-          <h6>There are unique ways to approach a saturated field</h6>
-          <p>
-              I was worried about creating a habit tracker at first as it is one of the most common types of app out there. However, through competitive analysis and user research, I was able to identify a key missing factor of accountability in these apps to create a more unique and effective solution to habit building! <br />
-          </p> 
-          <h6>Personal experience is a great way to empathize with your target audience</h6>
-          <p>
-            I first got the idea for this app because it was a tool I really wish I had. When interviewing other college students, I could definitely empathize with their problems when it came to balancing your academic and personal goals, and I think this helped me connect with my interviewees and come up with more meaningful insights. <br />
-          </p> 
-          <h6>Users approach the same app differently</h6>
-          <p>
+            <strong>There are unique ways to approach a saturated field </strong> <br />
+            I was worried about creating a habit tracker at first as it is one of the most common types of app out there. However, through competitive analysis and user research, I was able to identify a key missing factor of accountability in these apps to create a more unique and effective solution to habit building! <br /> <br />
+            <strong>Personal experience is a great way to empathize with your target audience </strong> <br />
+            I first got the idea for this app because it was a tool I really wish I had. When interviewing other college students, I could definitely empathize with their problems when it came to balancing your academic and personal goals, and I think this helped me connect with my interviewees and come up with more meaningful insights. <br /> <br />
+            <strong>Users approach the same app differently </strong> <br />
             When it comes to user experience design, it’s easy to fall in the trap of designing for an “ideal user”--one that thoroughly read every description and outlines you have. However, during user testing, I learned that users approach the same apps differently. Some fly through the app by scanning the screens while others spend more time thoroughly reading through each description. This made me realize how important it is to user test and maintain a strong visual hierarchy that can guide the users.
           </p>
+        </section>
+        <section className="section">
+          <MoreProjects
+            title={projects[1].title}
+            link={projects[1].link}
+          />
         </section>
       </div>
     </div>

@@ -11,11 +11,11 @@ function About() {
     <div className="about section">
         <section>
             <h2 className="about__heading--1">
-                Hi, I"m Jenna<span className="wave">👋</span>
+                Hi, I'm Jenna <span className="wave">👋</span>
             </h2>
             <p className="about__text">
                 I’m a product designer based in New York City and I love creating things with design and code! I’m currently pursuing a bachelor’s degree in Interactive Media Arts and Computer Science at New York University. I aim to create intuitive designs that put the users’ needs first. <br /> <br />
-                <a className="content-link" target="_blank" href="mailto: jenna5376@gmail.com">Email</a> <br />
+                <a className="content-link" target="_blank" href="mailto: jh7765@nyu.edu">Email</a> <br />
                 <a className="content-link" target="_blank" href="https://drive.google.com/file/d/18_ng2K9TEHkZitPo-8e-OCQ0vHUrsVcA/view?usp=sharing">Resume</a>
             </p>
             <h3 className="about__heading--3">How it all started...</h3>

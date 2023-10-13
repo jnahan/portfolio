@@ -9,6 +9,7 @@ import Cibi from "./pages/CaseStudies/Cibi";
 import DailyUi from "./pages/CaseStudies/DailyUi";
 import DrawTogether from "./pages/CaseStudies/DrawTogether";
 import EquitableSyllabusProject from "./pages/CaseStudies/EquitableSyllabusProject";
+import AnimatedCursor from "react-animated-cursor"
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
         <Route path="/daily-ui" element={<DailyUi/>}/>
       </Routes>
       <Footer/>
+      <AnimatedCursor 
+        color='249, 56, 137'
+      />
     </div>
   );
 }

@@ -2,6 +2,8 @@ import React from "react"
 import { projects } from "../../data/projectData"
 import ProjectInfo from "./ProjectTitle"
 import Insight from "./Insight"
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import MoreProjects from "./MoreProjects";
 
 import cover from "../../images/esp/esp-cover-image.png"
 import old1 from "../../images/esp/old-landing.png"
@@ -91,10 +93,10 @@ function EquitableSyllabusProject() {
             <h4 className = "section__title--small">Original website and database</h4>
             <div className="col">
                 <div className="img-wrapper">
-                  <img className="img" src={old1} alt="original website" />
+                  <LazyLoadImage className="img" src={old1} alt="original website" />
                 </div>
                 <div className="img-wrapper">  
-                  <img className="img" src={old2} alt="original database" />
+                  <LazyLoadImage className="img" src={old2} alt="original database" />
                 </div>
             </div>
           </div>
@@ -102,10 +104,10 @@ function EquitableSyllabusProject() {
             <h4 className = "section__title--small">Old designs from project manager</h4>
             <div className="col">
                 <div className="img-wrapper">
-                  <img className="img" src={old3} alt="old search design" />
+                  <LazyLoadImage className="img" src={old3} alt="old search design" />
                 </div>
                 <div className="img-wrapper">  
-                  <img className="img" src={old4} alt="old result design" />
+                  <LazyLoadImage className="img" src={old4} alt="old result design" />
                 </div>
             </div>
           </div>
@@ -121,7 +123,7 @@ function EquitableSyllabusProject() {
             <li>Gain insight on what features would be helpful for professors in the database</li>
           </ul>
           <div className="img-wrapper section__img">
-              <img className="img" src={ad} alt="affinity diagram" />
+              <LazyLoadImage className="img" src={ad} alt="affinity diagram" />
           </div>
         </section>
         <section className="section">
@@ -158,7 +160,7 @@ function EquitableSyllabusProject() {
             The website includes pages for each of the resource provided by the Equitable Syllabus team, as well as a contribution site to voice ideas and resource suggestions. Users can learn about each of these resources on the home page.        
           </p>
           <div className="img-wrapper section__img">
-              <img className="img" src={siteMap} alt="site map" />
+              <LazyLoadImage className="img" src={siteMap} alt="site map" />
           </div>
         </section>
         <section className="section">
@@ -178,7 +180,7 @@ function EquitableSyllabusProject() {
         <section className="section">
         <div className="col col--gap">
             <div className="img-wrapper col-large">
-              <img className="img shadow" src={final1} alt="landing page" />
+              <LazyLoadImage className="img shadow" src={final1} alt="landing page" />
             </div>
             <div className="col-small">
               <h4 className="section__title--small">Landing Page</h4>
@@ -200,14 +202,14 @@ function EquitableSyllabusProject() {
               </ul>
             </div>
             <div className="img-wrapper col-large">
-              <img className="img shadow" src={final2} alt="syllabus guide" />
+              <LazyLoadImage className="img shadow" src={final2} alt="syllabus guide" />
             </div>
           </div>
         </section>
         <section className="section">
           <div className="col col--gap">
             <div className="img-wrapper col-large">
-              <img className="img shadow" src={final3} alt="research database" />
+              <LazyLoadImage className="img shadow" src={final3} alt="research database" />
             </div>
             <div className="col-small">
               <h4 className="section__title--small">Research Database</h4>
@@ -231,6 +233,12 @@ function EquitableSyllabusProject() {
             <strong>The right design can speed up development</strong>  <br /> 
             I utilized grids, components, auto layouts, and styles while creating my designs on Figma. Using these tools not only helped me maintain consistency, but also sped up the development process immensely. Figma components were especially helpful as they worked similarly to how components work in React. As I could transform the designs into code more seamlessly, I was also able to code the website in a cleaner, more efficient way.
           </p>
+        </section>
+        <section className="section">
+          <MoreProjects
+            title={projects[4].title}
+            link={projects[4].link}
+          />
         </section>
       </div>
     </div>

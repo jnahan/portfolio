@@ -6,7 +6,7 @@ function Footer() {
       <p>Designed & coded with 💓 and 🧋</p>
       <ul className="footer__menu">
         <li className="footer__item">
-          <a target="_blank" href="mailto: jenna5376@gmail.com">Email</a>
+          <a target="_blank" href="mailto: jh7765@nyu.edu">Email</a>
         </li>
         <li className="footer__item">
           <a target="_blank" href="https://www.linkedin.com/in/jenna-han-4b09631b7">LinkedIn</a></li>

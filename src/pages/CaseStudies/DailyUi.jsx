@@ -1,6 +1,8 @@
 import React from "react"
-import ProjectInfo from "./ProjectTitle"
 import { projects } from "../../data/projectData"
+import ProjectInfo from "./ProjectTitle"
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import MoreProjects from "./MoreProjects";
 
 import cover from "../../images/daily-ui/daily-ui-cover-image.png"
 import design1 from "../../images/daily-ui/1_signup.png"
@@ -80,7 +82,7 @@ function DailyUi() {
               return (
               <div className="daily-ui-design">
                 <div className="img-wrapper">
-                  <img className="img" src={design.img} alt={design.prompt} />
+                  <LazyLoadImage className="img" src={design.img} alt={design.prompt} />
                 </div>
                 <p>{design.prompt}</p>
               </div>
@@ -94,6 +96,12 @@ function DailyUi() {
           <p className="section__text">
             I had a lot of fun working on this challenge! One of the biggest challenges I used to have when designing was wasting time overthinking my designs. However, the breadth and time constraint provided by this project helped me make critical decisions and design quicker. I also loved that I got to experiment with a lot of new design styles and tools without the pressure that comes with a larger project. I would definitely recommend other designers to try this challenge out!
           </p>
+        </section>
+        <section className="section">
+          <MoreProjects
+            title={projects[6].title}
+            link={projects[6].link}
+          />
         </section>
       </div>
     </div>
