@@ -1,8 +1,9 @@
 import React from "react"
 import { projects } from "../../data/projectData"
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 import ProjectInfo from "./ProjectTitle"
 import Insight from "./Insight"
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import MoreProjects from "./MoreProjects";
 
 import cover from "../../images/bondit/bondit-cover-image.png"
@@ -32,9 +33,9 @@ function Bondit() {
     <div className="case-study">
       <section className="section">
         <ProjectInfo
-          chips = {projects[1].chips}
-          title = {projects[1].title}
-          description = {projects[1].description}
+          chips={projects[1].chips}
+          title={projects[1].title}
+          description={projects[1].description}
           image={cover}
         />
       </section>

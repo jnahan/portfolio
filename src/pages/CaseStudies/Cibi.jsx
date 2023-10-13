@@ -1,5 +1,6 @@
 import React from "react"
 import { projects } from "../../data/projectData"
+
 import ProjectInfo from "./ProjectTitle"
 import MoreProjects from "./MoreProjects"
 
@@ -14,10 +15,10 @@ function Cibi() {
     <div className="case-study">
       <section className="section">
         <ProjectInfo
-          chips = {projects[2].chips}
-          title = {projects[2].title}
-          description = {projects[2].description}
-          image = {cover}
+          chips={projects[2].chips}
+          title={projects[2].title}
+          description={projects[2].description}
+          image={cover}
         />
       </section>
       <section className="section">

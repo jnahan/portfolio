@@ -1,15 +1,8 @@
 import React from "react"
 import { projects } from "../../data/projectData"
+
 import Card from "./Card"
 import Cat from "./Cat"
-
-/*
-TODO
-- mobile responsivity
-- css fun effects
-- update resume
-- make images clickable
-*/
 
 function Home() {
   React.useEffect(() => {

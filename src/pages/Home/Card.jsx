@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 function Card({title, description, link, imgSrc, chips, size}) {
   return (
-    <Link to = {link} className={`card ${size}`} key={title}>
+    <Link to={link} className={`card ${size}`} key={title}>
       <div>
           <div className="card__img" style={{backgroundImage: `url(${imgSrc})`}}></div>
           <h3 className="card__title">{title}</h3>

@@ -1,7 +1,8 @@
 import React from "react"
 import { projects } from "../../data/projectData"
-import ProjectInfo from "./ProjectTitle"
 import { LazyLoadImage } from "react-lazy-load-image-component";
+
+import ProjectInfo from "./ProjectTitle"
 import MoreProjects from "./MoreProjects";
 
 import cover from "../../images/draw-together/draw-together-cover-image.png"
@@ -37,10 +38,10 @@ function DrawTogether() {
     <div className="case-study">
       <section className="section">
         <ProjectInfo
-          chips = {projects[4].chips}
-          title = {projects[4].title}
-          description = {projects[4].description}
-          image = {cover}
+          chips={projects[4].chips}
+          title={projects[4].title}
+          description={projects[4].description}
+          image={cover}
         />
       </section>
       <section className="section">
@@ -145,7 +146,7 @@ function DrawTogether() {
 
               Upon discussion, we chose to remove the tutorial animations due to time constraints and removed the ability to name the room to simplify the setup process. We also decided to replace the rectangular canvas with a square one to better accommodate mobile users in future iterations. The drawing tool icons felt unclear, so we decided to redesign the palette to be more intuitive. These changes are reflected in our final mockup.      
             </p>
-          <div className="col">
+          <div className="col section__img">
             <div className="img-wrapper">
                 <LazyLoadImage className="img" src={low1} alt="low-fidelity home" />
                 <LazyLoadImage className="img" src={low2} alt="low-fidelity settings" />
@@ -172,11 +173,11 @@ function DrawTogether() {
           <p className="section__text">
             We applied our style guide to create the first mockup of our game. We also addressed problems identified with our low-fidelity wireframes in these mockups.      
           </p>
-          <div className="col">
-          <div className="img-wrapper">
-              <LazyLoadImage className="img" src={high1} alt="home mockup" />
-              <LazyLoadImage className="img" src={high2} alt="settings mockup" />
-          </div>
+          <div className="col section__img">
+            <div className="img-wrapper">
+                <LazyLoadImage className="img" src={high1} alt="home mockup" />
+                <LazyLoadImage className="img" src={high2} alt="settings mockup" />
+            </div>
             <div className="img-wrapper">
               <LazyLoadImage className="img" src={high3} alt="game mode mockup" />
               <LazyLoadImage className="img" src={high4} alt="canvas mockup" />

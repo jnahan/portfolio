@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
+
 import arrowLeft from "../../images/icons/arrow-left-solid.svg"
 import arrowRight from "../../images/icons/arrow-right-solid.svg"
 

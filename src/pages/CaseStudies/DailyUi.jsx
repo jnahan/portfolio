@@ -1,7 +1,8 @@
 import React from "react"
 import { projects } from "../../data/projectData"
-import ProjectInfo from "./ProjectTitle"
 import { LazyLoadImage } from "react-lazy-load-image-component";
+
+import ProjectInfo from "./ProjectTitle"
 import MoreProjects from "./MoreProjects";
 
 import cover from "../../images/daily-ui/daily-ui-cover-image.png"
@@ -34,10 +35,10 @@ function DailyUi() {
     <div className="case-study">
       <section className="section">
         <ProjectInfo
-          chips = {projects[5].chips}
-          title = {projects[5].title + " Challenge"}
-          description = {projects[5].description}
-          image = {cover}
+          chips={projects[5].chips}
+          title={projects[5].title + " Challenge"}
+          description={projects[5].description}
+          image={cover}
         />
       </section>
       <section className="section">

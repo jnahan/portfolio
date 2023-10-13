@@ -1,5 +1,6 @@
 import React from "react"
 import {useEffect, useState, useRef} from "react"
+
 import cat from "../../images/cat.png"
 
 function Cat() {
@@ -44,11 +45,11 @@ function Cat() {
         }
     }, [])
     
-    const styleLeft = {
+    const styleLeft={
         left: eyePos.left,
         top: eyePos.top
     }
-    const styleRight = {
+    const styleRight={
         left: eyePos.right,
         top: eyePos.top
     }

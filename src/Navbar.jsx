@@ -10,7 +10,7 @@ function Navbar() {
           <img className="img" src={logo} alt="logo" />
         </Link>
         <ul className="nav__menu">
-          <Link className="nav__link" to="/">Work</Link>
+          <Link className="nav__link nav__link--work" to="/">Work</Link>
           <Link className="nav__link" to="about">About</Link>
           <li className="nav__item">
             <a className="nav__link" target="_blank" href="https://drive.google.com/file/d/18_ng2K9TEHkZitPo-8e-OCQ0vHUrsVcA/view?usp=sharing">Resume</a>
