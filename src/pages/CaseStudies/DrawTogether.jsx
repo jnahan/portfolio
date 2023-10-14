@@ -191,7 +191,7 @@ function DrawTogether() {
           <p className="section__text">
             We decided to use React, Node, and Socket for our tech stack. This was the first time we were working with these tools and libraries, so this project presented a great learning opportunity for us. We used style guide, components, and auto layout when designing, which helped us speed up development. <br /> <br />
 
-            <a className="content-link" href="https://fine-outgoing-hornet.glitch.me/" target="_blank">Try out the game here!</a> <br />
+            <a className="content-link" href="https://fine-outgoing-hornet.glitch.me/" target="_blank" rel="noopener">Try out the game here!</a> <br />
             Video demo ↓
           </p>
           <video className="section__img" width="100%" height="auto" controls>

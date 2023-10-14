@@ -48,7 +48,7 @@ function Cibi() {
 
             My 3 month long project involved researching, designing, and prototyping Cibi’s MVP. This process involved tons of ideation and discussions with the project manager, and went through many different iterations. The demo version of the app will be shipped December of 2023. <br /> <br />
 
-            Although I am unable to disclose specific details about my work, please feel free to <a className="content-link" target="_blank" href="mailto: jh7765@nyu.edu">reach out</a> to me for more details!
+            Although I am unable to disclose specific details about my work, please feel free to <a className="content-link" target="_blank" rel="noopener" href="mailto: jh7765@nyu.edu">reach out</a> to me for more details!
           </p>
         </section>
         <section className="section">

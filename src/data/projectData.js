@@ -1,4 +1,3 @@
-import img from "../images/rect.png"
 import checkmate from "../images/card/checkmate.png"
 import cibi from "../images/card/cibi.png"
 import bondit from "../images/card/bondit.png"

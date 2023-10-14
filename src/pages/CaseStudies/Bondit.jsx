@@ -70,7 +70,7 @@ function Bondit() {
           <h5 className="section__heading">OVERVIEW</h5>
           <h3 className="section__title">How can we make Bondit a more effective tool for college students?</h3>
           <p className="section__text">
-            Bondit is a location-based social media app for US college students launched in 2020. The app has 30,000 users as of 2023. <a className="content-link" href="https://apps.apple.com/us/app/bondit-college-calendar/id1523289377" target="_blank">You can check out the app here!</a> <br /> <br />
+            Bondit is a location-based social media app for US college students launched in 2020. The app has 30,000 users as of 2023. <a className="content-link" href="https://apps.apple.com/us/app/bondit-college-calendar/id1523289377" target="_blank" rel="noopener">You can check out the app here!</a> <br /> <br />
             
             Bondit aims to promote bonding between college peers through features like shareable course schedule, map, friend discovery feed, and chat. However, the app provided too many features, and the <strong> MAU, DAU, and user retention remained low.</strong>
           </p>
