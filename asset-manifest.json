@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.3f65354e.css",
-    "main.js": "/static/js/main.1b8b5f81.js",
+    "main.js": "/static/js/main.d220392f.js",
+    "static/media/draw-together-demo.mov": "/static/media/draw-together-demo.94ecacddd1175bf519ae.mov",
     "static/media/25_tv_app.png": "/static/media/25_tv_app.b77fdc181d4ff7061588.png",
     "static/media/user-persona-1.png": "/static/media/user-persona-1.ad3b384f1e57643c42b4.png",
     "static/media/14_countdown_timer.png": "/static/media/14_countdown_timer.477dd36d381c7a1335f3.png",
@@ -91,10 +92,10 @@
     "static/media/arrow-right-solid.svg": "/static/media/arrow-right-solid.4a7d49a6b12ff3312f2bc99e90940d90.svg",
     "static/media/arrow-left-solid.svg": "/static/media/arrow-left-solid.792cfde6d32c2427c627372bc19faa53.svg",
     "main.3f65354e.css.map": "/static/css/main.3f65354e.css.map",
-    "main.1b8b5f81.js.map": "/static/js/main.1b8b5f81.js.map"
+    "main.d220392f.js.map": "/static/js/main.d220392f.js.map"
   },
   "entrypoints": [
     "static/css/main.3f65354e.css",
-    "static/js/main.1b8b5f81.js"
+    "static/js/main.d220392f.js"
   ]
 }
