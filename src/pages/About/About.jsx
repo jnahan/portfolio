@@ -16,7 +16,7 @@ function About() {
                 <p className="about__text">
                     I’m a product designer based in New York City and I love creating things with design and code! I’m currently pursuing a bachelor’s degree in Interactive Media Arts and Computer Science at New York University. I aim to create intuitive designs that put the users’ needs first. <br /> <br />
                     <a className="content-link" target="_blank" href="mailto: jh7765@nyu.edu">Email</a> <br />
-                    <a className="content-link" target="_blank" href="https://drive.google.com/file/d/18_ng2K9TEHkZitPo-8e-OCQ0vHUrsVcA/view?usp=sharing">Resume</a>
+                    <a className="content-link" target="_blank" href="https://drive.google.com/file/d/1G5OY5Cf2xfemzcIwh7Q0Fgwz_LGnk693/view?usp=sharing">Resume</a>
                 </p>
                 <h3 className="about__heading--3">How it all started...</h3>
                 <p className="about__text">I’ve always struggled to find my “one-true passion.” Growing up, I enjoyed both art and science and felt pressured to choose one or the other. This was until I discovered how seamlessly you can combine design and code. I fell in love with how code could make my static visual works come to life!</p>
