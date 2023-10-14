@@ -14,7 +14,7 @@ function Footer() {
           <a target="_blank" href="https://github.com/jenna5376">GitHub</a>
         </li>
         <li className="footer__item">
-          <a target="_blank" href="https://drive.google.com/file/d/18_ng2K9TEHkZitPo-8e-OCQ0vHUrsVcA/view?usp=sharing">Resume</a>
+          <a target="_blank" href="https://drive.google.com/file/d/1G5OY5Cf2xfemzcIwh7Q0Fgwz_LGnk693/view?usp=sharing">Resume</a>
         </li>
       </ul>
     </footer>
