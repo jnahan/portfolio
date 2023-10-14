@@ -136,7 +136,7 @@ function Checkmate() {
           <h5 className="section__heading">INITIAL RESEARCH</h5>
           <h3 className="section__title">Accountability partners increase your chance of reaching your goal to 95%</h3>
           <p className="section__text">
-            According to <a className="content-link" href="https://www.forbes.com/sites/forbescoachescouncil/2018/08/14/three-steps-to-overcoming-resistance/?sh=271ca33a5eae" target="_blank"> The American Society of Training and Development </a>, “People are <strong> 65 percent </strong> likely to meet a goal after committing to another person. Their chances of success increase to <strong> 95 percent </strong> when they build in ongoing meetings with their partners to check in on their progress.” <br /><br />
+            According to <a className="content-link" href="https://www.forbes.com/sites/forbescoachescouncil/2018/08/14/three-steps-to-overcoming-resistance/?sh=271ca33a5eae" target="_blank"> The American Society of Training and Development</a>, “People are <strong> 65 percent </strong> likely to meet a goal after committing to another person. Their chances of success increase to <strong> 95 percent </strong> when they build in ongoing meetings with their partners to check in on their progress.” <br /><br />
 
             This statistics actually reflected my own experience with accountability partners! I previously had a system with my friend where we would share our to-do lists and Venmo each other $1 every time we failed to complete a task. This system was extremely effective in helping me complete not only my academic goals, but also the personal goals I used to push aside. This got me thinking, what if I create an app to help users connect with accountability partners? 
           </p>
@@ -169,6 +169,9 @@ function Checkmate() {
         <section className="section">
           <h5 className="section__heading">User Interviews</h5>
           <h3 className="section__title">In order to find a different way of enforcing accountability, I conducted user interviews with 5 college students</h3>
+          <p className="section__text">
+            Sample questions:
+          </p>
           <ul>
             <li>Tell me about a goal you accomplished.</li>
             <li>What difficulty did you face while trying to achieve it?</li>
@@ -286,7 +289,7 @@ function Checkmate() {
               <h4 className="section__title--small">Cover Up Stickers</h4>
               <ul>
                 <li>A few users were concerned about their photo being public as their images could contain private information</li>
-                <li>However, I wanted to keep images public to enforce social accountability and verify that the users were uploading valid proof</li>
+                <li>However, I wanted to keep images public to enforce social accountability and verify that the users are uploading valid proof</li>
                 <li>I decided to add stickers so users could hide sensitive information</li>
               </ul>
             </div>

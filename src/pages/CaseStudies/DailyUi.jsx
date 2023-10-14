@@ -67,7 +67,7 @@ function DailyUi() {
           <h3 className="section__title">50 days of UI design</h3>
           <p className="section__text">
             As I had a lot of time during summer break, I decided to do the Daily UI Challenge for 50 days. <br />  <br />
-            I thought this challenge would: <br /> <br />
+            I thought this challenge would: <br />
           </p>
           <ul>
             <li>Be a good opportunity to try out new design styles</li>
@@ -95,7 +95,7 @@ function DailyUi() {
           <h5 className="section__name">REFLECTION</h5>
           <h3 className="section__title">Reflection</h3>
           <p className="section__text">
-            I had a lot of fun working on this challenge! One of the biggest challenges I used to have when designing was wasting time overthinking my designs. However, the breadth and time constraint provided by this project helped me make critical decisions and design quicker. I also loved that I got to experiment with a lot of new design styles and tools without the pressure that comes with a larger project. I would definitely recommend other designers to try this challenge out!
+            I had a lot of fun working on this challenge! One of the biggest challenges I used to have when designing was wasting time overthinking my designs. However, the breadth and time constraint provided by this challenge helped me make critical decisions and design quicker. I also loved that I got to experiment with a lot of new design styles and tools without the pressure that comes with a larger project. I would definitely recommend other designers to try this challenge out!
           </p>
         </section>
         <section className="section">

@@ -70,7 +70,7 @@ function Bondit() {
           <h5 className="section__heading">OVERVIEW</h5>
           <h3 className="section__title">How can we make Bondit a more effective tool for college students?</h3>
           <p className="section__text">
-            Bondit is a location-based social media app for US college students launched in 2020. The app currently has 30,000 users as of 2023. <a className="content-link" href="https://apps.apple.com/us/app/bondit-college-calendar/id1523289377" target="_blank">You can check out the app here!</a> <br /> <br />
+            Bondit is a location-based social media app for US college students launched in 2020. The app has 30,000 users as of 2023. <a className="content-link" href="https://apps.apple.com/us/app/bondit-college-calendar/id1523289377" target="_blank">You can check out the app here!</a> <br /> <br />
             
             Bondit aims to promote bonding between college peers through features like shareable course schedule, map, friend discovery feed, and chat. However, the app provided too many features, and the <strong> MAU, DAU, and user retention remained low.</strong>
           </p>
@@ -155,7 +155,7 @@ function Bondit() {
           <h5 className="section__heading">User Journey</h5>
           <h3 className="section__title">How would Jennifer and Raj use Bondit?</h3>
           <p className="section__text">
-            We created user journeys based on Jennifer and Raj to showcase how Bondit may be used to achieve different goals. While Jennifer uses Bondit to socialize, Raj uses Bondit for academic opportunities. Jennifer'skey features were map and chat while Raj'skey features were course scheduling, chat, and professor ratings.        
+            We created user journeys based on Jennifer and Raj to showcase how Bondit may be used to achieve different goals. While Jennifer uses Bondit to socialize, Raj uses Bondit for academic opportunities. Jennifer's key features were map and chat while Raj's key features were course scheduling, chat, and professor ratings.        
           </p>
           <div className="img-wrapper section__img">
             <LazyLoadImage className="img" src={journey1} alt="user journey (Jennifer)" />
@@ -168,7 +168,7 @@ function Bondit() {
           <h5 className="section__heading">Information Architecture</h5>
           <h3 className="section__title">Information architecture for key features</h3>
           <p className="section__text">
-            Finally, to determine potential areas of focus and optimize the flow of the app, we created an information architecture based on Bondit'skey features: 
+            Finally, to determine potential areas of focus and optimize the flow of the app, we created an information architecture based on Bondit's key features: 
           </p>
           <ul>
             <li>course schedule</li>
@@ -176,9 +176,9 @@ function Bondit() {
             <li>profile</li>
             <li>chat</li>
             <li>professor rating</li>
-          </ul>
+          </ul> <br />
           <p>
-            Through this, we were able to find a minor bug where friend'sprofiles did not appear in the profile tab when filtered by peer, which could have led to frustration and reduced engagement. 
+            Through this, we were able to find a minor bug where friend's profiles did not appear in the profile tab when filtered by peer, which could have led to frustration and reduced engagement. 
           </p>
           <div className="img-wrapper section__img">
             <LazyLoadImage className="img" src={ia} alt="information architecture" />
@@ -263,7 +263,7 @@ function Bondit() {
           <h5 className="section__heading">Study Two</h5>
           <h3 className="section__title">Examining users' experience with Bondit</h3>
           <p className="section__text">
-            Based on past research and insights, the UX lead has made changes to Bondit's design. We wanted to examine users' experience with the new prototype.<br /><br />
+            The UX lead made weekly changes to Bondit's design based on our research and insights. We wanted to examine users' experience with the new prototype in this study.<br /><br />
 
             <strong>Objectives</strong>
           </p>
@@ -271,7 +271,7 @@ function Bondit() {
             <li>Understanding user behavior and needs in regards to the onboarding feature of social media apps for college bonding</li>
             <li>Understanding user behavior and needs in regards to identifying college peers to bond with within social media apps for college bonding</li>
             <li>Understanding user behavior and needs in regards to interacting with college peers to bond with within social media apps for college bonding</li>
-          </ul>
+          </ul> <br />
           <p>We conducted cognitive walkthroughs on 15 participants.</p>
           <div className="img-wrapper section__img">
             <LazyLoadImage className="img" src={ad4} alt="affinity diagram" />
@@ -329,7 +329,7 @@ function Bondit() {
           <h5 className="section__heading">Reflection</h5>
           <h3 className="section__title">Outcome</h3>
           <p className="section__text">
-            We successfully conducted four rounds of user research and began designing improved features. Our work will be transferred to Bondit'ssummer team, who will make further modifications and implement the designs before the start of the fall 2022 semester.
+            We successfully conducted four rounds of user research and began designing improved features. Our work will be transferred to Bondit's summer team, who will make further modifications and implement the designs before the start of the fall 2022 semester.
           </p>
         </section>
         <section className="section">
@@ -341,13 +341,13 @@ function Bondit() {
               Here are some of my takeaways:
               <br /> <br />
               <strong>Design is not just about the visuals </strong> <br />
-              Prior to this internship, I had the impression that design was about creating pixel-perfect, visually appealing graphics. However, conducting user interviews and learning about users" pain points made me realize that user research and design play hand in hand in creating great designs. <br /> <br />
+              Prior to this internship, I had the impression that design was about creating pixel-perfect, visually appealing graphics. However, conducting user interviews and learning about users' pain points made me realize that user research and design play hand in hand in creating great designs. <br /> <br />
 
               <strong>Discussions spark creativity </strong> <br />
               Our team regularly held discussions to explore solutions based on user insights, and our ideas sometimes differed. However, these conversations taught me that exchanging perspectives can lead to stronger and more creative ideas. <br /> <br />
 
               <strong>First-hand experience can guide the research </strong> <br />
-              As a college freshman, I fit the app'starget audience perfectly. The PM and founder often asked for my thoughts on the user experience, and I noticed that many users" paint points aligned with mine. This connection helped me empathize with the users during interviews.
+              As a college freshman, I fit the app's target audience perfectly. The PM and founder often asked for my thoughts on the user experience, and I noticed that many users' paint points aligned with mine. This connection helped me empathize with the users during interviews.
           </p>
         </section>
         <section className="section">

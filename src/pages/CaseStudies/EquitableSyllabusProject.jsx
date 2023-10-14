@@ -52,7 +52,7 @@ function EquitableSyllabusProject() {
           </div>
           <div>
             <h6 className="project-info__heading">Timeline</h6>
-            <p className="project-info__text">Dec 2022 - Jun 2022</p>
+            <p className="project-info__text">Dec 2022 - May 2023</p>
           </div>
         </div>
         <hr className="project-info__divider" />
@@ -115,7 +115,7 @@ function EquitableSyllabusProject() {
         </section>
         <section className="section">
           <h5 className="section__name">User Research</h5>
-          <h3 className="section__title">Understanding ITP professors" needs</h3>
+          <h3 className="section__title">Understanding ITP professors' needs</h3>
           <p className="section__text">
             Our website targets NYU ITP faculties. To understand their needs, I analyzed 13 faculty interviews and organized relevant quotes using an affinity diagram to identify patterns.
           </p>

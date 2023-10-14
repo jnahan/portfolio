@@ -22,6 +22,7 @@ import high1 from "../../images/draw-together/high-home.png"
 import high2 from "../../images/draw-together/high-settings.png"
 import high3 from "../../images/draw-together/high-mode.png"
 import high4 from "../../images/draw-together/high-canvas.png"
+import demo from "../../images/draw-together/draw-together-demo.mov"
 import old1 from "../../images/draw-together/old-tutorial.png"
 import new1 from "../../images/draw-together/new-tutorial.png"
 import old2 from "../../images/draw-together/old-canvas.png"
@@ -190,8 +191,13 @@ function DrawTogether() {
           <p className="section__text">
             We decided to use React, Node, and Socket for our tech stack. This was the first time we were working with these tools and libraries, so this project presented a great learning opportunity for us. We used style guide, components, and auto layout when designing, which helped us speed up development. <br /> <br />
 
-            <a className="content-link" href="https://fine-outgoing-hornet.glitch.me/" target="_blank">Try out the game here!</a>
+            <a className="content-link" href="https://fine-outgoing-hornet.glitch.me/" target="_blank">Try out the game here!</a> <br />
+            Video demo ↓
           </p>
+          <video className="section__img" width="100%" height="auto" controls>
+              <source src={demo} type="video/mp4"/>
+              Your browser does not support the video tag.
+          </video>
         </section>
         <section className="section">
           <h5 className="section__name">User Testing</h5>
@@ -215,7 +221,7 @@ function DrawTogether() {
           <div>
             <h4 className = "section__title--small">1. Tutorial Popup</h4>
             <p>
-              Originally, the games started automatically after a short countdown. Many users expressed confusion and frustration because of this. To address this, we added a popup with a quick tutorial and information about the other player. This will provide users with a better understanding of the game mechanics and confirm they are matched with the intended player.
+              Originally, the games started automatically after a short countdown. Many users expressed confusion and frustration because of this. To address this issue, we added a popup with a quick tutorial and information about the other player. This popup can help users understanding the game mechanics and verify that they are match with the correct partner.
             </p>
             <div className="col section__img">
               <div className="img-wrapper">
@@ -238,16 +244,16 @@ function DrawTogether() {
               <div className="img-wrapper">  
                 <LazyLoadImage className="img" src={new2} alt="new canvas" />
               </div>
-              <div className="section__img">
+            </div>
+            <div className="section__img">
                 <LazyLoadImage className="img" src={features} alt="new features" />
-              </div>
             </div>
           </div>
         </section>
         <section className="section">
         <div>
             <h4 className = "section__title--small">3. Better Swapping Transition</h4>
-            <p>Users have noted that the swapping felt “glitchy” because it happened too quickly. To resolve this, we added a swapping transition and made the countdown timer blink when there are less than five seconds left.</p>
+            <p>Users have noted that swapping canvases felt “glitchy” because it happened too quickly. To resolve this issue, we added a swapping transition and made the countdown timer blink red when there are less than five seconds left before swapping.</p>
             <div className="img-wrapper section__img">
               <LazyLoadImage className="img" src={new3} alt="new transition" />
             </div>
@@ -257,23 +263,23 @@ function DrawTogether() {
           <h5 className="section__name">Outcome</h5>
           <h3 className="section__title">Outcome</h3>
           <p className="section__text">
-            We were thrilled to learn that the usability testing participants found the game fun, cute, and easy to navigate! I have discussed the changes I made with the other developer and we will be moving forward with implementing them. We are hoping to implement these changes by April (as an update, majority of these changes have been implemented!).       
+            We were thrilled to learn that the usability testing participants found the game fun, cute, and easy to navigate! I discussed the design changes I made based on user testing with the other developer, and we will be moving forward with implementing them. We are hoping to implement these changes by April (as an update, majority of these changes have been implemented!).       
           </p>
         </section>
         <section className="section">
           <h5 className="section__name">Reflection</h5>
           <h3 className="section__title">Reflection & Takeaways</h3>
           <p className="section__text">
-            This project was particularly fulfilling as it allowed me to bring a fun idea I had to life, and I learned a lot in the process. It was my teammate and my first time using React, Socket, and Node, meaning we had to learn a lot of new tools in the process. I am incredibly proud that we were able to learn new frameworks and apply them within such a tight timeline. <br /> <br />
+            This project was particularly fulfilling as it allowed me to bring a fun idea I had to life, and I learned a lot in the process. It was my teammate's and my first time using React, Socket, and Node, meaning we had to learn a lot of new tools in the process. I am incredibly proud that we were able to learn new frameworks and apply them within such a tight timeline. <br /> <br />
 
             Here are some of my takeaways: <br /> <br />
 
-            <strong>Don"t let your skills limit you:</strong> <br />
-            My friend and I initially thought that we wouldn"t be able to complete this project because we had never created a full-stack project before and had no experience with the coding frameworks we were using. I was also nervous because it was my first time developing a large project I designed on Figma. However, we pushed through and completed the project, which allowed us to grow and challenge ourselves. <br /> <br />
+            <strong>Don't let your skills limit you</strong> <br />
+            My teammates and I initially thought that we wouldn't be able to complete this project because we never created a full-stack application before and we had no experience with the programming frameworks we were using. I was also nervous because it was my first time developing a large project I designed on Figma. However, we pushed through and completed the project, and was able to grow and challenge ourselves through the process. <br /> <br />
 
-            <strong> Knowing how to code is extremely helpful as a designer:</strong> <br />
+            <strong> Knowing how to code is extremely helpful as a designer</strong> <br />
             
-            Before I focused on design, I felt conflicted because I enjoyed both design and development. However, this project made me realize that having knowledge in both areas is hugely beneficial. I can create self-directed projects and this knowledge helps me bridge the gap between design and development. I had a better understanding of what steps were needed to build the project, and I could even provide some code instructions along with my design document to help the team work more quickly and efficiently.
+            Before I decided to focus on design, I felt conflicted because I enjoyed both design and coding. However, this project made me realize that having knowledge in both areas is hugely beneficial. I can create self-directed projects and this knowledge helps me bridge the gap between design and development. I had a better understanding of what steps were needed to build the project, and I could even provide some code instructions along with my design document to help the team work more quickly and efficiently.
           </p>
         </section>
         <section className="section">
