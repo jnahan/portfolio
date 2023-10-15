@@ -16,7 +16,7 @@ import journey1 from "../../images/bondit/user-journey-1.png"
 import journey2 from "../../images/bondit/user-journey-2.png"
 import ia from "../../images/bondit/info-architecture.png"
 import ad2 from "../../images/bondit/theme-two-ad.png"
-import q2 from "../../images/bondit/theme-two-ad.png"
+import q2 from "../../images/bondit/theme-two-quotes.png"
 import ad3 from "../../images/bondit/theme-three-s1-ad.png"
 import q3 from "../../images/bondit/theme-three-s1-quotes.png"
 import ad4 from "../../images/bondit/theme-three-s2-ad.png"
@@ -102,12 +102,6 @@ function Bondit() {
             <li>Examining gen z trends of bonding with peers</li>
             <li>Finding ways Bondit can target latent target users</li>
           </ul>
-          <div className="img-wrapper section__img">
-            <LazyLoadImage className="img" src={ad1} alt="affinity diagram" />
-          </div>
-          <div className="img-wrapper section__img">
-            <LazyLoadImage className="img" src={q1} alt="relevant quotes" />
-          </div>
         </section>
         <section className="section">
           <h5 className="section__heading">Theme One</h5>
@@ -115,6 +109,12 @@ function Bondit() {
           <p className="section__text">
             To understand our areas of focus, we conducted 10 user interviews about Bondit’s current prototype to identify their pain points. We then performed open coding and created an affinity diagram to identify key takeaways.         
           </p>
+          <div className="img-wrapper section__img">
+            <LazyLoadImage className="img" src={ad1} alt="affinity diagram" />
+          </div>
+          <div className="img-wrapper section__img">
+            <LazyLoadImage className="img" src={q1} alt="relevant quotes" />
+          </div>
         </section>
         <section className="section">
           <h5 className="section__heading">Key Takeaways</h5>
