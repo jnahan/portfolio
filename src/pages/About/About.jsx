@@ -14,7 +14,7 @@ function About() {
                     Hi, I'm Jenna <span className="wave">👋</span>
                 </h2>
                 <p className="about__text">
-                    I’m a product designer based in New York City and I love creating things with design and code! I’m currently pursuing a bachelor’s degree in Interactive Media Arts and Computer Science at New York University. I aim to create intuitive designs that put the users’ needs first. <br /> <br />
+                    You can call me Jenna or Ju Hee! I’m a product designer based in New York City and I love creating things with design and code! I’m currently pursuing a bachelor’s degree in Interactive Media Arts and Computer Science at New York University. I aim to create intuitive designs that put the users’ needs first. <br /> <br />
                     <a className="content-link" target="_blank" rel="noopener" href="mailto: jh7765@nyu.edu">Email</a> <br />
                     <a className="content-link" target="_blank" rel="noopener" href="https://drive.google.com/file/d/1G5OY5Cf2xfemzcIwh7Q0Fgwz_LGnk693/view?usp=sharing">Resume</a>
                 </p>
