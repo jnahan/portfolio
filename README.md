@@ -7,4 +7,4 @@ The portfolio includes my UI/UX design and web development projects.
 
 # How to run 🛠
 1. Installation: `npm install`
-2. In the project directory run: `npm start`
+2. In the project directory, run: `npm start`
