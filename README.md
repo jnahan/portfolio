@@ -5,6 +5,6 @@ This is the 2023 version of my portfolio site built with React! You can visit th
 The portfolio includes my UI/UX design and web development projects. 
 
 
-# How to run 🛠
+## How to run 🛠
 1. Installation: `npm install`
 2. In the project directory, run: `npm start`
