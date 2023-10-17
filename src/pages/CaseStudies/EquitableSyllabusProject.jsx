@@ -176,7 +176,7 @@ function EquitableSyllabusProject() {
         <section className="section">
           <h5 className="section__heading">Result</h5>
           <h3 className="section__title">Final Website</h3>
-          <p className="section__text">The Equitable Syllabus Project site is now live on the NYU ITP domain! These are a few of the key screens:</p>
+          <p className="section__text">The Equitable Syllabus Project site is now live on the NYU ITP domain. <a className="content-link" href="https://itp.nyu.edu/esp/#/" target="_blank" rel="noreferrer">Check out the website here!</a> These are a few of the key screens:</p>
         </section>
         <section className="section">
         <div className="col col--gap">
