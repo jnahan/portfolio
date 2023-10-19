@@ -16,9 +16,9 @@ import siteMap from "../../images/esp/site-map.png"
 import final1 from "../../images/esp/landing-page.png"
 import final2 from "../../images/esp/syllabus-guide.png"
 import final3 from "../../images/esp/research-database.png"
-import gif1 from "../../images/esp/landing-page-gif.gif"
-import gif2 from "../../images/esp/syllabus-guide-gif.gif"
-import gif3 from "../../images/esp/research-database-gif.gif"
+import gif1 from "../../images/esp/landing-page.gif"
+import gif2 from "../../images/esp/syllabus-guide.gif"
+import gif3 from "../../images/esp/research-database.gif"
 
 function EquitableSyllabusProject() {
   React.useEffect(() => {
@@ -184,7 +184,7 @@ function EquitableSyllabusProject() {
         <section className="section">
         <div className="col col--gap">
             <div className="img-wrapper col-large">
-              <LazyLoadImage className="img shadow" src={gif1} alt="landing page" />
+              <img className="img shadow" src={gif1} alt="landing page" />
             </div>
             <div className="col-small">
               <h4 className="section__title--small">Landing Page</h4>
@@ -201,19 +201,19 @@ function EquitableSyllabusProject() {
             <div className="col-small">
               <h4 className="section__title--small">Syllabus Guide</h4>
               <ul>
-                <li>Get tips and guidelines for creating a more equitable syllabus</li>
+                <li>Get tips and guidelines for creating a more equitable œsyllabus</li>
                 <li>Propose changes and get your voice heard</li>
               </ul>
             </div>
             <div className="img-wrapper col-large">
-              <LazyLoadImage className="img shadow" src={gif2} alt="syllabus guide" />
+              <img className="img shadow" src={gif2} alt="syllabus guide" />
             </div>
           </div>
         </section>
         <section className="section">
           <div className="col col--gap">
             <div className="img-wrapper col-large">
-              <LazyLoadImage className="img shadow" src={gif3} alt="research database" />
+              <img className="img shadow" src={gif3} alt="research database" />
             </div>
             <div className="col-small">
               <h4 className="section__title--small">Research Database</h4>
