@@ -476,6 +476,15 @@ strong{
   .col{
     flex-direction: column;
   }
+  .col--gap{
+    gap: 48px;
+  }
+  .col-small{
+    order: 1;
+  }
+  .col-large{
+    order: 2;
+  }
   .insight-wrapper{
     flex-direction: column;
   }
