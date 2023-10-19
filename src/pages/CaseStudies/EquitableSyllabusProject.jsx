@@ -16,6 +16,9 @@ import siteMap from "../../images/esp/site-map.png"
 import final1 from "../../images/esp/landing-page.png"
 import final2 from "../../images/esp/syllabus-guide.png"
 import final3 from "../../images/esp/research-database.png"
+import gif1 from "../../images/esp/landing-page-gif.gif"
+import gif2 from "../../images/esp/syllabus-guide-gif.gif"
+import gif3 from "../../images/esp/research-database-gif.gif"
 
 function EquitableSyllabusProject() {
   React.useEffect(() => {
@@ -181,7 +184,7 @@ function EquitableSyllabusProject() {
         <section className="section">
         <div className="col col--gap">
             <div className="img-wrapper col-large">
-              <LazyLoadImage className="img shadow" src={final1} alt="landing page" />
+              <LazyLoadImage className="img shadow" src={gif1} alt="landing page" />
             </div>
             <div className="col-small">
               <h4 className="section__title--small">Landing Page</h4>
@@ -203,14 +206,14 @@ function EquitableSyllabusProject() {
               </ul>
             </div>
             <div className="img-wrapper col-large">
-              <LazyLoadImage className="img shadow" src={final2} alt="syllabus guide" />
+              <LazyLoadImage className="img shadow" src={gif2} alt="syllabus guide" />
             </div>
           </div>
         </section>
         <section className="section">
           <div className="col col--gap">
             <div className="img-wrapper col-large">
-              <LazyLoadImage className="img shadow" src={final3} alt="research database" />
+              <LazyLoadImage className="img shadow" src={gif3} alt="research database" />
             </div>
             <div className="col-small">
               <h4 className="section__title--small">Research Database</h4>
