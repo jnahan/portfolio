@@ -306,7 +306,7 @@ function Checkmate() {
             <div className="col-small">
               <h4 className="section__title--small">Small Challenge Groups</h4>
               <ul>
-                <li>I presented my idea to others and received feedback that there would be less social accountability if the challenge groups were too large</li>
+                <li>I received feedback that there would be less social accountability if the challenge groups were too large</li>
                 <li>I limited each challenge group to 30 members</li>
                 <li>The group also creates an environment people can engage and support each other in</li>
                 <li>Users can optionally maintain their anonymity with usernames</li>
@@ -327,10 +327,19 @@ function Checkmate() {
           </ul>
         </section>
         <section className="section">
+          <h5 className="section__heading">Outcome</h5>
+          <h3 className="section__title">Outcome</h3>
+          <p className="section__text">
+            I presented the idea to some of my classmates and friends and heard amazing feedback. A lot of people said having money as a source of motivation was a great idea, and that they would definitely use the app if it actually existed. <br /><br />
+
+            Due to the positive feedback I received, my friend and I are taking the next step of building Checkmate! We are using React Native, MongoDB, and Node.js for the tech stack. We plan to complete the development by December 2023 and test a demo version of our app with a small group of participants. In this study, we will be analyzing two groups attempting to work on a set personal goal for one week. One group will use Checkmate, while the control group will work on the goal without the app. We hope to see that Checkmate can help students achieve their personal goals!
+          </p>
+        </section>
+        <section className="section">
           <h5 className="section__heading">Reflection</h5>
           <h3 className="section__title">Reflection + Takeaways</h3>
           <p className="section__text">
-            I really loved working on Checkmate as self-improvement is something I’ve always been interested in. I presented the idea to some of my classmates and friends and heard amazing feedback. A lot of people said having money as a source of motivation was a great idea, and that they would definitely use the app if it actually existed (I would also love to use the app, and am actually considering coding it). <br /><br />
+            I really loved working on Checkmate as self-improvement is something I’ve always been interested in.<br /><br />
             
             Through this project I learned some important takeaways: <br /><br />
             <strong>There are unique ways to approach a saturated field </strong> <br />

@@ -9,7 +9,7 @@ import about from "../images/card/about.png"
 export const projects = [
     {
         title: "Checkmate",
-        description: "Habit tracker that actually holds you accountable", 
+        description: "Bet money on yourself", 
         link: "checkmate", 
         imgSrc: checkmate, 
         imgAlt: "Checkmate Case Study", 
