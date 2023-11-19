@@ -225,6 +225,13 @@ function EquitableSyllabusProject() {
           </div>
         </section>
         <section className="section">
+          <h5 className="section__heading">Impact</h5>
+          <h3 className="section__title">Impact</h3>
+          <p className="section__text">
+            We received a lot of positive feedback about the Equitable Syllabus Project website's new design! Professors can now understand the project and access its resources a lot quicker than before. Aditionally, based on user testing results, users can now find resources in our research database <strong> 76.1% (56.6s to 13.5s) faster than before!</strong>
+          </p>
+        </section>
+        <section className="section">
           <h5 className="section__name">REFLECTION</h5>
           <h3 className="section__title">Reflection and Takeaways</h3>
           <p className="section__text">

@@ -45,7 +45,7 @@ export const projects = [
     },
     {
         title: "Equitable Syllabus Project",
-        description: "Resource hub to help professors create an equitable syllabus", 
+        description: "Resource hub to help NYU professors create an equitable syllabus", 
         link: "equitable-syllabus-project", 
         imgSrc: esp, 
         imgAlt: "Equitable Syllabus Project Case Study", 

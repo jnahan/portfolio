@@ -326,10 +326,17 @@ function Bondit() {
           </div>
         </section>
         <section className="section">
-          <h5 className="section__heading">Reflection</h5>
+          <h5 className="section__heading">Outcome</h5>
           <h3 className="section__title">Outcome</h3>
           <p className="section__text">
-            We successfully conducted four rounds of user research and began designing improved features. Our work will be transferred to Bondit's summer team, who will make further modifications and implement the designs before the start of the fall 2022 semester.
+            We successfully conducted four rounds of user research and began designing new and improved features. Our work will be transferred to Bondit's summer team, who will make further modifications and implement the designs before the start of the fall 2022 semester.
+          </p>
+        </section>
+        <section className="section">
+          <h5 className="section__heading">Impact</h5>
+          <h3 className="section__title">258% Increase in Bondit's User Base</h3>
+          <p className="section__text">
+            Through our efforts, our team successfully grew the user base of Bondit by <strong> 258% (1,200 to 4,300 users).</strong> As of 2023, the community board we designed is still one of Bondit's most popular and noteworthy features, and the app now boasts 30,000+ users from 60 colleges!
           </p>
         </section>
         <section className="section">

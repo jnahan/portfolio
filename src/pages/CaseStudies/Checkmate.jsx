@@ -101,7 +101,7 @@ function Checkmate() {
               <h4 className="section__title--small">Bet money on yourself and earn monetary prizes</h4>
               <ul>
                 <li>It’s like a swear jar!</li>
-                <li>Deposit money. You’ll earn a prize if you complete your goal and lose a part of your deposit if you fail to</li>
+                <li>Deposit money. You’ll earn a prize if you complete your goal and lose a part of your deposit if you fail</li>
                 <li>Redeem prize money for fun gift cards</li>
               </ul>
             </div>
@@ -211,8 +211,11 @@ function Checkmate() {
         <section className="section">
           <h5 className="section__heading">Problem Statement</h5>
           <h3 className="section__title">
-            Many college students have personal goals they want to achieve. However, although academic goals provide students the pressure and hard deadlines that make achieving goals easier, the lack of discipline and accountability that personal goals provide lead to students procrastinating and failing to reach their goals.
+            Problem Statement
           </h3>
+          <p className="section__text">
+            Many college students have personal goals they want to achieve. However, although academic goals provide students the pressure and hard deadlines that make achieving goals easier, the lack of discipline and accountability that personal goals provide lead to students procrastinating and failing to reach their goals.
+          </p>
         </section>
         <section className="section">
           <h5 className="section__heading">Solution</h5>
@@ -332,7 +335,7 @@ function Checkmate() {
           <p className="section__text">
             I presented the idea to some of my classmates and friends and heard amazing feedback. A lot of people said having money as a source of motivation was a great idea, and that they would definitely use the app if it actually existed. <br /><br />
 
-            Due to the positive feedback I received, my friend and I are taking the next step of building Checkmate! We are using React Native, MongoDB, and Node.js for the tech stack. We plan to complete the development by December 2023 and test a demo version of our app with a small group of participants. In this study, we will be analyzing two groups attempting to work on a set personal goal for one week. One group will use Checkmate, while the control group will work on the goal without the app. We hope to see that Checkmate can help students achieve their personal goals!
+            Due to the positive feedback I received, my friend and I are taking the next step of building Checkmate! We are using React Native, MongoDB, Express, and Node.js for the tech stack. We plan to complete the development by December 2023 and test a demo version of our app with a small group of participants. In this study, we will be analyzing two groups attempting to work on a set personal goal for one week. One group will use Checkmate, while the control group will work on the goal without the app. Check out our progress on our <a className="content-link" href="https://github.com/millycakes/final-project">GitHub repository</a>. We hope to see that Checkmate can help students achieve their personal goals!
           </p>
         </section>
         <section className="section">

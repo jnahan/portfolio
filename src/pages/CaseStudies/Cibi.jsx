@@ -46,7 +46,7 @@ function Cibi() {
           <p className="section__text">
             During Summer 2023, I got the opportunity to work as a UI/UX designer at Cibi. Cibi is a new startup aiming to make dining a more affordable and engaging experience for college students. The app incentivizes users to eat at restaurants more frequently by offering bonuses diners can use to save on their next meal out. These bonuses also help restaurants with low occupancy fill up their tables. <br /> <br />
 
-            My 3 month long project involved researching, designing, and prototyping Cibi’s MVP. This process involved tons of ideation and discussions with the project manager, and went through many different iterations. The demo version of the app will be shipped December of 2023. <br /> <br />
+            My 3 month long project involved researching, designing, and prototyping Cibi’s MVP. This process involved tons of ideation and discussions with the project manager, and went through many different iterations. The demo version of the app is undergoing development as of 2023. <br /> <br />
 
             Although I am unable to disclose specific details about my work, please feel free to <a className="content-link" target="_blank" rel="noopener" href="mailto: jh7765@nyu.edu">reach out</a> to me for more details!
           </p>
