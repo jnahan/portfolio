@@ -13,7 +13,7 @@ function ProjectInfo({chips, title, description, image}) {
           })}
         </div>
         <h1>{title}</h1>
-        <p>{description}</p>
+        <p className="project-title__description">{description}</p>
       </div>
       <LazyLoadImage className="img" src={image} alt={title} />
     </div>

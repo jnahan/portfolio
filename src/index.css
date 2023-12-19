@@ -346,6 +346,9 @@ strong{
   margin-bottom: 64px;
   text-align: center;
 }
+.project-title__description{
+  font-size: var(--body-large);
+}
 .project-info{
   display: flex;
   flex-direction: row;
@@ -473,6 +476,9 @@ strong{
     margin-left: 8%;
     margin-right: 8%;
   }
+  .nav__menu{
+    gap: 12px;
+  }
 }
 @media (max-width: 768px) {
   :root{
@@ -482,6 +488,7 @@ strong{
     --h4: 1.25rem;
     --h5: 1.125rem;
     --h6: 1.25rem;
+    --body: 1.0625rem;
   }
   .section{
     margin-left: 48px;
@@ -489,6 +496,9 @@ strong{
   }
   .nav{
     margin: 48px 0 64px;
+  }
+  .nav__menu{
+    gap: 4px;
   }
   .cat{
     display: none;
@@ -516,9 +526,6 @@ strong{
   }
   .about{
     flex-direction: column;
-  }
-  .nav__link{
-    padding: 8px;
   }
   .footer__item{
     padding: 8px;
