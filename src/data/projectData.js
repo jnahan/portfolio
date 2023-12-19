@@ -17,7 +17,7 @@ export const projects = [
         chips: [
             "UI Design",
             "UX Research",
-            "User Testing"
+            "Mobile Dev"
         ],
         size: "card--large"
     },
