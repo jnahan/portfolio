@@ -7,6 +7,7 @@
 }
 body {
   font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 a{
   text-decoration: none;
@@ -18,7 +19,7 @@ a{
   --gray-light: rgba(243, 243, 243, 1);
   --gray-default: rgba(160, 160, 160, 1);
   --gray-medium: rgba(137, 137, 137, 1);
-  --gray-dark: rgba(85, 85, 85, 1);
+  --gray-dark: rgb(68, 68, 68);
   --black: rgba(34, 34, 34, 1);
   --accent: rgba(249, 56, 137, 1);
 
