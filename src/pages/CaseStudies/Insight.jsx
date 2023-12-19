@@ -4,7 +4,7 @@ function Insight({title, text}) {
   return (
     <div className="insight">
         <h4>{title}</h4>
-        <p>{text}</p>
+        <p className="insight__description">{text}</p>
     </div>
   )
 }

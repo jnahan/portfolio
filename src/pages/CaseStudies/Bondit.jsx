@@ -211,7 +211,7 @@ function Bondit() {
             />
             <Insight
               title="Personal connections"
-              text="Users are aware of the limitations of social media and want to connect with others at a more personal level through features like DM"
+              text="Users are aware of social media's limitations and want to connect with others at a more personal level"
             />
           </div>
         </section>
@@ -247,7 +247,7 @@ function Bondit() {
           <div className="insight-wrapper section__img">
             <Insight
               title="Pain points"
-              text="Time commitment and different backgrounds most frequently mentioned as pain points for bonding"
+              text="Time commitment and different backgrounds are biggest obstacles to bonding"
             />
             <Insight
               title="Social media use"
@@ -255,7 +255,7 @@ function Bondit() {
             />
             <Insight
               title="Bonding factors"
-              text="Similar interests are considered the most important for bonding, even over things like age and major"
+              text="Similar interests are considered the most important for bonding, even over age and major"
             />
           </div>
         </section>

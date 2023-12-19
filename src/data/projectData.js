@@ -4,7 +4,8 @@ import bondit from "../images/card/bondit.png"
 import esp from "../images/card/esp.png"
 import drawTog from "../images/card/draw-together.png"
 import dailyUI from "../images/card/daily-ui.png"
-import about from "../images/card/about.png"
+// import about from "../images/card/about.png"
+import intify from "../images/card/intify.png"
 
 export const projects = [
     {
@@ -68,6 +69,18 @@ export const projects = [
         ]
     },
     {
+        title: "Intify.AI",
+        description: "1st @ UI/UX Designathon", 
+        link: "https://devpost.com/software/screenvue", 
+        imgSrc: intify, 
+        imgAlt: "Intify.AI", 
+        chips: [
+            "UX Research",
+            "UI Design"
+        ],
+        external: true
+    },
+    {
         title: "Daily UI",
         description: "50 days of UI design", 
         link: "daily-ui", 
@@ -76,16 +89,6 @@ export const projects = [
         chips: [
             "UI Design",
             "Graphic Design"
-        ]
-    },
-    {
-        title: "About Me",
-        description: "Learn more about me", 
-        link: "about", 
-        imgSrc: about, 
-        imgAlt: "About Me", 
-        chips: [
-            "Jenna Han"
         ]
     }
 ]

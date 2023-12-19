@@ -19,6 +19,7 @@ function Home() {
         imgSrc={project.imgSrc}
         chips={project.chips}
         size={project.size}
+        external={project.external}
       />
       )
     })

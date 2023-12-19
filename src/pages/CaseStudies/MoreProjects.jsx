@@ -9,10 +9,10 @@ function MoreProjects({title, link}) {
     <div className='more-projects'>
         <div className="more-projects__button">
             <img className="arrow" src={arrowLeft} alt="left arrow" />
-            <Link className="nav__link" to="/">Back Home</Link>
+            <Link className="more-projects__link" to="/">Back Home</Link>
         </div>
         <div className="more-projects__button">
-            <Link className="nav__link" to={`/${link}`}>{title}</Link>
+            <Link className="more-projects__link" to={`/${link}`}>{title}</Link>
             <img className="arrow" src={arrowRight} alt="right arrow" />
         </div>
     </div>

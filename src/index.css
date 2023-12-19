@@ -26,13 +26,14 @@ a{
   /* base size: body (16px) */
   --h1: 4rem;
   --h2: 3rem;
-  --h3: 2rem;
-  --h4: 1.5rem;
+  --h3: 1.75rem;
+  --h4: 1.25rem;
   --h5: 1.125rem;
   --h6: 1.25rem;
   --body-x-large: 1.5rem;
   --body-large: 1.25rem;
-  --body: 1.15rem;
+  --body: 1.125rem;
+  --body-small: 1rem;
 
   /* Effect styles */
   --shadow:  0px 5.999998092651367px 17.9999942779541px rgba(0, 0, 0, 0.08);
@@ -72,9 +73,11 @@ h6{
 p{
   font-size: var(--body);
   color: var(--gray-dark);
+  line-height: 180%;
 }
 li{
   margin-left: 16px;
+  line-height: 180%;
   font-size: var(--body);
   color: var(--gray-dark);
 }
@@ -100,28 +103,38 @@ strong{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 80px 0 100px;
+  margin: 64px 0 100px;
 }
 .nav__menu{
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 16px;
 }
 .nav__logo{
   width: 128px;
 }
 .nav__item{
   list-style: none;
-  margin-left: 0;
 }
 .nav__link{
   text-decoration: none;
-  padding: 12px;
+  padding: 8px 0;
+  box-sizing: border-box;
+  line-height: 160%;
   font-size: var(--body);
+  color: var(--black);
+}
+.nav__link:hover{
+  color: var(--gray-default);
+}
+.nav__link.active{
+  position: relative;
+  border-bottom: 2px solid var(--accent);
 }
 .footer{
   margin-top: 120px;
-  margin-bottom: 120px;
+  margin-bottom: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -313,6 +326,7 @@ strong{
 }
 .chip-wrapper{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   gap: 8px;
   margin-bottom: 12px;
@@ -397,9 +411,12 @@ strong{
   display: flex;
   flex-direction: column;
   gap: 4px;
-  padding: 24px 32px;
+  padding: 20px;
   border-radius: 8px;
   flex-basis: 100%;
+}
+.insight__description{
+  font-size: var(--body-small);
 }
 .more-projects{
   display: flex;
@@ -409,6 +426,15 @@ strong{
 .more-projects__button{
   display: flex;
   align-items: center;
+}
+.more-projects__link{
+  text-decoration: none;
+  padding: 12px;
+  line-height: 180%;
+  font-size: var(--body);
+}
+.more-projects__link:hover{
+  cursor: pointer;
 }
 .arrow{
   width: 32px;

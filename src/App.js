@@ -2,7 +2,7 @@ import Navbar from "./Navbar"
 import Home from "./pages/Home/Home"
 import About from "./pages/About/About"
 import Footer from "./Footer"
-import { Route, Routes } from "react-router-dom"
+import { Route, Routes, NavLink } from "react-router-dom"
 import Bondit from "./pages/CaseStudies/Bondit"
 import Checkmate from "./pages/CaseStudies/Checkmate"
 import Cibi from "./pages/CaseStudies/Cibi"
@@ -24,8 +24,12 @@ function App() {
     <div>
       <Navbar/>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/about" element={<About/>}/>
+        <Route 
+          path="/" element={<Home/>}
+        />
+        <Route 
+          path="/about" element={<About/>}
+        />
         <Route path="/checkmate" element={<Checkmate/>}/>
         <Route path="/cibi" element={<Cibi/>}/>
         <Route path="/bondit" element={<Bondit/>}/>
