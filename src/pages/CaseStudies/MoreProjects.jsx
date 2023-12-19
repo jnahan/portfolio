@@ -12,7 +12,9 @@ function MoreProjects({title, link}) {
             <Link className="more-projects__link" to="/">Back Home</Link>
         </div>
         <div className="more-projects__button">
-            <Link className="more-projects__link" to={`/${link}`}>{title}</Link>
+            {title === 'Intify.AI' ? 
+              <a className="more-projects__link" target='_blank' rel="noopener" href='https://devpost.com/software/screenvue'>{title}</a> :
+              <Link className="more-projects__link" to={`/${link}`}>{title}</Link>}
             <img className="arrow" src={arrowRight} alt="right arrow" />
         </div>
     </div>
