@@ -69,6 +69,17 @@ export const projects = [
         ]
     },
     {
+        title: "Daily UI",
+        description: "50 days of UI design", 
+        link: "daily-ui", 
+        imgSrc: dailyUI, 
+        imgAlt: "Daily UI Challenge Case Study", 
+        chips: [
+            "UI Design",
+            "Graphic Design"
+        ]
+    },
+    {
         title: "Intify.AI",
         description: "1st @ UI/UX Designathon", 
         link: "https://devpost.com/software/screenvue", 
@@ -79,16 +90,5 @@ export const projects = [
             "UI Design"
         ],
         external: true
-    },
-    {
-        title: "Daily UI",
-        description: "50 days of UI design", 
-        link: "daily-ui", 
-        imgSrc: dailyUI, 
-        imgAlt: "Daily UI Challenge Case Study", 
-        chips: [
-            "UI Design",
-            "Graphic Design"
-        ]
     }
 ]

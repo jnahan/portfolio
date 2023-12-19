@@ -73,11 +73,11 @@ h6{
 p{
   font-size: var(--body);
   color: var(--gray-dark);
-  line-height: 180%;
+  line-height: 160%;
 }
 li{
   margin-left: 16px;
-  line-height: 180%;
+  line-height: 160%;
   font-size: var(--body);
   color: var(--gray-dark);
 }
@@ -433,7 +433,7 @@ strong{
 .more-projects__link{
   text-decoration: none;
   padding: 12px;
-  line-height: 180%;
+  line-height: 160%;
   font-size: var(--body);
 }
 .more-projects__link:hover{
