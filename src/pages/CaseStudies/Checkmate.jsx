@@ -354,6 +354,14 @@ function Checkmate() {
           </p>
         </section>
         <section className="section">
+          <h5 className="section__heading">Acknowledgement</h5>
+          <h3 className="section__title">Project Inspiration</h3>
+          <p className="section__text">
+            Checkmate was inspired by my past experience with  accountability partners and a project called <span> </span> 
+            <a className="content-link" href="https://www.youtube.com/watch?v=YkMVNdBZbc0&t=780s&ab_channel=SharonYeunKim" target="_blank" rel="noopener">Onnit by Sharon Yeun Kim</a>. Although I tackled the problem--the lack of accountability provided by personal goals--differently by enforcing structural accountability and financial consequences instead of social accountability, I was inspired by the way Sharon incorporated clear storytelling to her research and presentation. Thank you to my past accountability partners and Sharon for helping me bring this project come to life!
+          </p>
+        </section>
+        <section className="section">
           <MoreProjects
             title={projects[1].title}
             link={projects[1].link}

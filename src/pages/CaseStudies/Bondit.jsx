@@ -282,7 +282,7 @@ function Bondit() {
         </section>
         <section className="section">
           <h5 className="section__heading">Key Takeaways</h5>
-          <h3 className="section__title">What are users" experience with the updated Bondit prototype?</h3>
+          <h3 className="section__title">What are users' experience with the updated Bondit prototype?</h3>
           <div className="insight-wrapper section__img">
             <Insight
               title="Long login"
