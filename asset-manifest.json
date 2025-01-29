@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.58bb5bc9.css",
-    "main.js": "/static/js/main.47cec78d.js",
+    "main.js": "/static/js/main.61f2a4a7.js",
     "static/media/draw-together-demo.mov": "/static/media/draw-together-demo.94ecacddd1175bf519ae.mov",
     "static/media/research-database-gif.gif": "/static/media/research-database-gif.d2c0f9b7f2e365283c19.gif",
     "static/media/25_tv_app.png": "/static/media/25_tv_app.b77fdc181d4ff7061588.png",
@@ -10,17 +10,16 @@
     "static/media/user-persona-1.png": "/static/media/user-persona-1.ad3b384f1e57643c42b4.png",
     "static/media/14_countdown_timer.png": "/static/media/14_countdown_timer.477dd36d381c7a1335f3.png",
     "static/media/user-persona-2.png": "/static/media/user-persona-2.fafbb934ce52cfef4e2b.png",
+    "static/media/microsoft-cover-image.png": "/static/media/microsoft-cover-image.ece5046949d88262b99b.png",
     "static/media/bondit-cover-image.png": "/static/media/bondit-cover-image.b1ecbf69d7d78070d800.png",
     "static/media/final-design-3.png": "/static/media/final-design-3.6ce28d79fd6941f7e418.png",
     "static/media/user-testing-4.png": "/static/media/user-testing-4.9e6a3f9b326ad896329f.png",
     "static/media/board.png": "/static/media/board.2807edc56e40780d48ac.png",
-    "static/media/checkmate.png": "/static/media/checkmate.5caf5f5af734b00cd1db.png",
     "static/media/35_blog_post.png": "/static/media/35_blog_post.a30470041dd442af9800.png",
     "static/media/final-design-1.png": "/static/media/final-design-1.198a4405558f1b63b1e9.png",
     "static/media/user-journey-2.png": "/static/media/user-journey-2.a20cf1e5162a516c14e2.png",
     "static/media/daily-ui-cover-image.png": "/static/media/daily-ui-cover-image.e6f5a97506c924941a6a.png",
     "static/media/theme-three-s2-ad.png": "/static/media/theme-three-s2-ad.8d167f6a8ca63c9fca0f.png",
-    "static/media/cibi-cover-image.png": "/static/media/cibi-cover-image.299d2ce2d79ffc748d34.png",
     "static/media/theme-one-ad.png": "/static/media/theme-one-ad.42e8cf4e12c62b4c9f7b.png",
     "static/media/theme-two-ad.png": "/static/media/theme-two-ad.bae9c355737c64828dd6.png",
     "static/media/draw-together-cover-image.png": "/static/media/draw-together-cover-image.4bb961f1d172ae4c82dd.png",
@@ -46,7 +45,6 @@
     "static/media/user-journey.png": "/static/media/user-journey.d3b1ed5fc1e1a207ea91.png",
     "static/media/bondit.png": "/static/media/bondit.b68d8d22beef337c1d12.png",
     "static/media/old-database.png": "/static/media/old-database.a508f9432b19d4f38e14.png",
-    "static/media/cibi.png": "/static/media/cibi.ced01246ac0e40f0a5b8.png",
     "static/media/esp-cover-image.png": "/static/media/esp-cover-image.aabfdafbe8bfd1f0f91a.png",
     "static/media/info-architecture.png": "/static/media/info-architecture.ae2000c4d5b9f0bab10f.png",
     "static/media/intify.png": "/static/media/intify.549c05028a686f774894.png",
@@ -91,15 +89,17 @@
     "static/media/old-design-2.png": "/static/media/old-design-2.96124a23bc060c14d23e.png",
     "static/media/quantitative-research-2.png": "/static/media/quantitative-research-2.27aa27720bc02c1fab26.png",
     "static/media/painting-swap.png": "/static/media/painting-swap.aaf57826c7d3ed9fcdc1.png",
+    "static/media/about.png": "/static/media/about.06995c2b7c3b5fbff289.png",
+    "static/media/microsoft.png": "/static/media/microsoft.4e874e49ed8a8d35a4af.png",
     "static/media/skribbl.io.png": "/static/media/skribbl.io.a64dde0b6100a9a7d757.png",
     "index.html": "/index.html",
     "static/media/arrow-right-solid.svg": "/static/media/arrow-right-solid.4a7d49a6b12ff3312f2bc99e90940d90.svg",
     "static/media/arrow-left-solid.svg": "/static/media/arrow-left-solid.792cfde6d32c2427c627372bc19faa53.svg",
     "main.58bb5bc9.css.map": "/static/css/main.58bb5bc9.css.map",
-    "main.47cec78d.js.map": "/static/js/main.47cec78d.js.map"
+    "main.61f2a4a7.js.map": "/static/js/main.61f2a4a7.js.map"
   },
   "entrypoints": [
     "static/css/main.58bb5bc9.css",
-    "static/js/main.47cec78d.js"
+    "static/js/main.61f2a4a7.js"
   ]
 }
