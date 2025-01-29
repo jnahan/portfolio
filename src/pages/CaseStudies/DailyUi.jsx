@@ -35,9 +35,9 @@ function DailyUi() {
     <div className="case-study">
       <section className="section">
         <ProjectInfo
-          chips={projects[5].chips}
-          title={projects[5].title + " Challenge"}
-          description={projects[5].description}
+          chips={projects[4].chips}
+          title={projects[4].title + " Challenge"}
+          description={projects[4].description}
           image={cover}
         />
       </section>
@@ -100,8 +100,8 @@ function DailyUi() {
         </section>
         <section className="section">
           <MoreProjects
-            title={projects[6].title}
-            link={projects[6].link}
+            title={projects[5].title}
+            link={projects[5].link}
           />
         </section>
       </div>

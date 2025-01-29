@@ -9,9 +9,9 @@ function Footer() {
           <a target="_blank" rel="noopener" href="mailto: jh7765@nyu.edu">Email</a>
         </li>
         <li className="footer__item">
-          <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/jenna-han-4b09631b7">LinkedIn</a></li>
+          <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/jenna-juhee-han">LinkedIn</a></li>
         <li className="footer__item">
-          <a target="_blank" rel="noopener" href="https://github.com/jenna5376">GitHub</a>
+          <a target="_blank" rel="noopener" href="https://github.com/jnahan">GitHub</a>
         </li>
         <li className="footer__item">
           <a target="_blank" rel="noopener" href="https://drive.google.com/file/d/1G5OY5Cf2xfemzcIwh7Q0Fgwz_LGnk693/view?usp=sharing">Resume</a>

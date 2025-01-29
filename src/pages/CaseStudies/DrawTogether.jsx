@@ -39,9 +39,9 @@ function DrawTogether() {
     <div className="case-study">
       <section className="section">
         <ProjectInfo
-          chips={projects[4].chips}
-          title={projects[4].title}
-          description={projects[4].description}
+          chips={projects[2].chips}
+          title={projects[2].title}
+          description={projects[2].description}
           image={cover}
         />
       </section>
@@ -77,7 +77,7 @@ function DrawTogether() {
       <div className="case-study-content">
         <section className="section">
           <h5 className="section__name">Overview</h5>
-          <h3 className="section__title">Making Art More Meaningful Through Collaboration</h3>
+          <h3 className="section__title">Making art more meaningful through collaboration</h3>
           <p className="section__text">
             Creating art is a fun and relaxing way to express yourself, but it’s an activity that’s often done alone. To make art a more collaborative experience, I created Draw Together, a game that allows players to work together to create unique and meaningful art. This project took two months to design, develop, and user test.      
           </p>
@@ -284,8 +284,8 @@ function DrawTogether() {
         </section>
         <section className="section">
           <MoreProjects
-            title={projects[5].title}
-            link={projects[5].link}
+            title={projects[3].title}
+            link={projects[3].link}
           />
         </section>
       </div>
